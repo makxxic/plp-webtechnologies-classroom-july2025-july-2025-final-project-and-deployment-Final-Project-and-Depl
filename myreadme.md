@@ -10,8 +10,8 @@
 ##  Deployment
  This project can easily be deployed on:
 - **GitHub Pages**  
-- **Netlify**  
-- **Vercel**  
+- **Netlify**  https://my-web-dev-trip.netlify.app/
+- **Vercel**  https://my-web-dev-lovat.vercel.app/
 
 Example for GitHub Pages:
 1. Push this repository to GitHub.
