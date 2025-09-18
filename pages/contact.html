@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Web Dev Journey</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script defer src="./js/nav.js"></script>
+  <script defer src="../js/form-validation.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Web Dev Journey</div>
+      <button class="menu-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h1>Contact Me</h1>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Web Dev Journey </p>
+  </footer>
+</body>
+</html>
